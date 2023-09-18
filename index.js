@@ -80,5 +80,6 @@ function save(){
     let countStr = count + " - "
     document.getElementById("save-el").textContent += countStr 
     console.log(count)
-
+    count = 0
+    document.getElementById("count-el").textContent = count
 }
