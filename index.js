@@ -68,10 +68,14 @@ function increment(){
     count = count +1
     console.log(count)
 }
-increment()
+// increment()
 
 // change the count-el in the HTML to reflect the new count
 function increment(){
     count = count + 1
     document.getElementById("count-el").innerHTML = count
+}
+
+function save(){
+    console.log(count)
 }

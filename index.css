@@ -37,3 +37,7 @@ button {
 #increment-btn {
     background: darkred;
 }
+
+#save-btn {
+    background-color: darkgreen;
+}
