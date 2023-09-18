@@ -77,5 +77,8 @@ function increment(){
 }
 
 function save(){
+    let countStr = count + " - "
+    document.getElementById("save-el").innerText += countStr 
     console.log(count)
+
 }

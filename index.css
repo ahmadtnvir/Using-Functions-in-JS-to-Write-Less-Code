@@ -41,3 +41,9 @@ button {
 #save-btn {
     background-color: darkgreen;
 }
+
+p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
