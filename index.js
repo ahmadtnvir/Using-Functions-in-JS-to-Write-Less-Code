@@ -73,12 +73,12 @@ function increment(){
 // change the count-el in the HTML to reflect the new count
 function increment(){
     count = count + 1
-    document.getElementById("count-el").innerHTML = count
+    document.getElementById("count-el").textContent = count
 }
 
 function save(){
     let countStr = count + " - "
-    document.getElementById("save-el").innerText += countStr 
+    document.getElementById("save-el").textContent += countStr 
     console.log(count)
 
 }
